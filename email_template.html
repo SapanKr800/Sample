@@ -24,6 +24,8 @@
             letter-spacing: 1px;
         }
 
+        /*  header top css Start Here */
+
         .Mailer {
             width: 600px;
             margin: 0px auto;
@@ -33,15 +35,6 @@
             background-color: #ffe5d6;
         }
 
-        .FooterContent {
-            background-color: #ffe5d6;
-            margin-top: -75px;
-        }
-
-        .CommonPadding {
-            padding: 30px;
-        }
-
         .logoContent {
             display: flex;
             justify-content: space-between;
@@ -49,6 +42,15 @@
 
         .logoContent img {
             height: 90px;
+        }
+
+        .FooterContent {
+            background-color: #ffe5d6;
+            margin-top: -75px;
+        }
+
+        .CommonPadding {
+            padding: 30px;
         }
 
         .BigNews {
@@ -80,36 +82,21 @@
             margin-bottom: 5px;
         }
 
-        .Content {
-            display: grid;
-            grid-template-columns: 50% 50%;
+        /*  header top End  Here*/
+
+        /* Slanted Center Content Start Here*/
+
+        .slantedCenter {
+            -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+            clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%);
+            background-color: rgb(252, 250, 250);
+            margin-top: -70px;
+            text-align: center;
         }
 
-        .Unsubscribe {
-            text-align: end;
-        }
-
-        .Unsubscribe p,
-        a {
-            font-size: 12px;
-            text-align: end;
-            color: #333;
-        }
-
-        .Unsubscribe a {
-            text-decoration: underline;
-        }
-
-        .Unsubscribe img {
-            height: 50px;
-        }
-
-        .Footericon {
-            padding-top: 70px;
-        }
-
-        .Footericon img {
-            height: 25px;
+        .slantedHeading {
+            color: red;
+            font-weight: 600;
         }
 
         .fetatureContent {
@@ -135,18 +122,42 @@
             margin-bottom: 10px;
         }
 
-        .slantedCenter {
-            -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-            clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%);
-            background-color: rgb(252, 250, 250);
-            margin-top: -70px;
-            text-align: center;
+        /* Slanted Center Content  End Here*/
+
+        /* FooterContent  Start Here */
+        .Content {
+            display: grid;
+            grid-template-columns: 50% 50%;
         }
 
-        .slantedHeading {
-            color: red;
-            font-weight: 600;
+        .Footericon {
+            padding-top: 70px;
         }
+
+        .Footericon img {
+            height: 25px;
+        }
+
+        .Unsubscribe {
+            text-align: end;
+        }
+
+        .Unsubscribe p,
+        a {
+            font-size: 12px;
+            text-align: end;
+            color: #333;
+        }
+
+        .Unsubscribe a {
+            text-decoration: underline;
+        }
+
+        .Unsubscribe img {
+            height: 50px;
+        }
+
+        /* FooterContent  End Here */
 
         @media (max-width: 575px) {
             .Mailer {
@@ -163,10 +174,8 @@
 
 <body>
 
-
-
     <div class="Mailer">
-
+        <!-- header top Start  Here  -->
 
         <div class="HeaderContent CommonPadding">
             <div class="logoContent"> <img src="email_template/logo.jpg " alt="" />
@@ -193,19 +202,15 @@
                 <a href="#"> Go to your account! </a>
             </div>
         </div>
+        <!-- header top Start  Here  -->
 
-
+        <!--   Slanted Center Content  Start Here  -->
 
         <div class="slantedCenter " style="padding:60px 30px 40px 30px;">
 
-
             <p class="slantedHeading"> NEW RELEASES</p>
             <h3> Checkout our amazing features </h3>
-
-
             <div class="fetatureContent">
-
-
 
                 <div class="features">
                     <img src="email_template/timer.png " alt="" />
@@ -241,6 +246,10 @@
             </div>
         </div>
 
+        <!--   Slanted Center Content  End Here  -->
+
+        <!-- FooterContent  Start Here  -->
+
         <div class="FooterContent CommonPadding" style="padding-top:40px;">
             <div class="Content">
                 <div class="Footericon">
@@ -255,12 +264,10 @@
                         on our website or made a purchase from us.</p>
                     <a>Unsubscribe </a>
                 </div>
-
-
             </div>
         </div>
 
-
+        <!-- FooterContent  End Here  -->
     </div>
 
 </body>

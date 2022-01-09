@@ -1,503 +1,504 @@
-
-html{
-	scroll-behavior: smooth;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-   
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-p{
- 
-    font-family: sans-serif;
-    color: #737f8b;
-    margin-bottom: 10px;
-    font-size: 14px;
+p {
+  font-family: sans-serif;
+  color: #737f8b;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 a:hover,
 a:active,
 a:focus {
-  
-    outline: none;
-    text-decoration: none;
+  outline: none;
+  text-decoration: none;
 }
-.commonPadd{
-    padding: 80px 0px 30px 0px;
+
+.commonPadd {
+  padding: 80px 0px 30px 0px;
 }
+
 .commonBtn {
-   text-align: center;
-
-}
-.commonBtn a{
-    padding: 10px 20px;
-    border: 2px solid white;
-    color: white!important;
-
+  text-align: center;
 }
 
-.commonBtn i{
-  
-    color: white;
-
-}
-.partners{
-    padding-bottom:50px;
+.commonBtn a {
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: white !important;
 }
 
-.partnersLogo{
-    justify-content: end;
-    display: flex;
-}
-.partnersLogo img{
-    height: 50px;
-    margin-right: 30px;
+.commonBtn i {
+  color: white;
 }
 
+.partners {
+  padding-bottom: 50px;
+}
+
+.partnersLogo {
+  justify-content: end;
+  display: flex;
+}
+
+.partnersLogo img {
+  height: 50px;
+  margin-right: 30px;
+}
 
 /*********** Nav Bar CSS **********/
 
 .navbar {
-    position: relative;
-    transition: .5s;
-    z-index: 999;
+  position: relative;
+  transition: 0.5s;
+  z-index: 999;
 }
 
 .navbar.nav-sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
-    transition: .5s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
-
-.navbar h3{
-    color: white;
+.navbar h3 {
+  color: white;
 }
+
 .navbar li {
-    padding: 0px 10px;
-}
-.navbar li a{
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
+  padding: 0px 10px;
 }
 
-
+.navbar li a {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
 
 /*********** Nav Bar CSS END **********/
 
 .banner {
-    width: 100%;
-    background-image: linear-gradient(rgb(17 36 70  / 70%), rgb(17 36 70 / 70%)), url(images/carousel-1.jpg);
- 
-    background-size: cover;
-}
-.banner h2{
-    font-size: 40px;
-    color: white;
-    font-family: 'Pathway Gothic One', sans-serif;
+  width: 100%;
+  background-image: linear-gradient(rgb(17 36 70 / 70%), rgb(17 36 70 / 70%)),
+    url(images/carousel-1.jpg);
+
+  background-size: cover;
 }
 
-.banner .BannerTop p{
- font-size: 16px;
-    color: white;
-    margin-bottom: 40px;
-}
-.banner .BannerTop{
-padding: 13% 0px;
-}
-.banner .BannerTop .heading{
-margin-top: 70px;
- }
-.ContactForm{
-    background-color: rgb(131 135 145 / 45%);
-    padding: 15px;
-    border-radius: 5px;
-    width: 60%;
-    margin: 0px auto;
-}
-.ContactForm .form-control{
-height: 32px;
-}
-.ContactForm form{
-    color: white;
-}
-.ContactForm .SubmitBtn{
-    border: 1px solid white;
-    width: 100%;
-    margin-top: -15px;
-    color: white;
-    font-size: 14px;
-    padding: 10px 0px;
+.banner h2 {
+  font-size: 40px;
+  color: white;
+  font-family: "Pathway Gothic One", sans-serif;
 }
 
-.ContactForm .form-group label{
-   font-size: 14px;
+.banner .BannerTop p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.banner .BannerTop {
+  padding: 13% 0px;
+}
+
+.banner .BannerTop .heading {
+  margin-top: 70px;
+}
+
+.ContactForm {
+  background-color: rgb(131 135 145 / 45%);
+  padding: 15px;
+  border-radius: 5px;
+  width: 60%;
+  margin: 0px auto;
+}
+
+.ContactForm .form-control {
+  height: 32px;
+}
+
+.ContactForm form {
+  color: white;
+}
+
+.ContactForm .SubmitBtn {
+  border: 1px solid white;
+  width: 100%;
+  margin-top: -15px;
+  color: white;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+
+.ContactForm .form-group label {
+  font-size: 14px;
 }
 
 .accountBtn {
- font-size: 13px;
- text-align: center;
-}
-.ContactIcon{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: stretch;
-	align-content: stretch;
-    margin-top: 10px;
-    padding:0px 15px;
-}
-.ContactIcon a{
-
-color: white;
-padding: 5px 10px;
-font-size: 16px;
-border:2px solid white;
+  font-size: 13px;
+  text-align: center;
 }
 
-.ContactIcon .facebook{
-    background-color: #3b5998;
-  
-    }
-
-    .ContactIcon .twitter{
-        background-color: #55acee;
-      
-        }
-
-        .ContactIcon .linkedin{
-            background-color: #007bb5 ;
-          
-            }
-        
-            .ContactIcon .google{
-                background-color: #dd4b39;
-              
-                }
-
-                .aboutSection img{
-                    width: 60%;
-
-                }
-.aboutSection  h2{
-margin-top: 80px;
-}
-                .alignImg{
-                    position: absolute;
-                    top: 140px;
-                    left: 160px;
-                }
-                .section-header {
-                    position: relative;
-                    text-align: left;
-                    margin-bottom: 30px;
-                }
-
-                .section-header h2{
-                    font-size: 35px;
-                    margin-left: 35px;
-                    font-weight: 300;
-                    font-family: 'Pathway Gothic One', sans-serif;
-                }
-
-                .section-header h2::after {
-                    content: "";
-                    position: absolute;
-                    width: 120px;
-                    height: 0;
-                    top: 15px;
-                    left: 0px;
-                    border-bottom: 20px solid;
-                    border-image: repeating-linear-gradient( 60deg, rgba(179, 179, 179, 0.3),
-                    rgba(179, 179, 179,.01) 3px, rgba(179, 179, 179,.1) 3px, rgba(179, 179, 179,.35) 5px) 30;
-
-                 
-                }
-
-            .feature-img{
-             
-
-             border: 20px solid ;
-             border-image: repeating-linear-gradient( 60deg, rgba(179, 179, 179, 0.3),
-              rgba(179, 179, 179,.01) 3px, rgba(179, 179, 179,.1) 3px, rgba(179, 179, 179,.35) 5px) 30;
-
-           height: 450px;
-           width: 380px;
-           position: absolute;
-           top: 40px;
-   
-           margin-left: 70px;
-       }
-            .howitWorks .section-header{
-                margin-top: 60px;
-            }
-
-            .worksContent {
-              
-                box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-                text-align: center;
-                padding: 20px ;
-                margin-bottom: 30px;
-            }
-            .worksContent .SizeChange{
-                font-size: 22px;
-                color: cornflowerblue;
-                font-family: 'Pathway Gothic One', sans-serif;
-                letter-spacing: 1px;
-            }
-
-            .worksContent p{
-                font-size: 14px;
-                margin-bottom: 5px;
-           
-          
-            }
-
-            .RegBtn{
-                margin-top: 10px;
-                padding: 20px;
-            }
-            .RegBtn a{
-                padding: 10px 20px;
-                border: 2px solid black;
-                color: black!important;
-                text-decoration: underline;
-                text-decoration-color:blue;
-                margin-top: 20px;
-            
-            }
-
-            .RegBtn i{
-                text-decoration: underline;
-                color: rgb(85, 39, 211)!important;
-            
-            }
-
-            .worksContent img{
-                height: 35px;
-                margin-bottom: 10px;
-            }
-
-            /* footer css start here*/
-
-            .footer-section{
-                background-color: #092a49;    
-                           ;
-            }
-            .Footer-heading{
-                font-size: 22px;
-                color: white;
-                font-family: 'Pathway Gothic One', sans-serif;
-                letter-spacing: 1px;
-                margin-bottom: 50px;
-            }
-            .Footer-heading::before{
-                content: "";
-                width: 40px;
-              
-                border: 1px solid #6259fd;
-                position: absolute;
-                margin-top: 33px;
-            }
-            
-            .Company-Details p,i,a{
-                color: white;
-            }
-
-            .Company-Details i{
-                margin-right: 5px;
-            }
-            .social-icon{
-                color: white;
-            }
-            .social-icon a:nth-child(1) {
-                margin-left: 0px!important;
-              }
-            .social-icon a{
-                color: white;
-                margin-left: 15px;
-                font-size: 20px;
-            }
-            .contactSection{
-                padding: 40px 0px 20px 0px;
-            }
-.quick p{
-color: white;
-}
-.quick i{
-    margin-right: 5px;
-    }
-    .copyright p{
-    color:rgb(165 157 157);
-    margin: 0px;
-    padding-bottom: 25px;
-    }
-
-    .back-to-top {
-      
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-           
-            width: 40px;
-            height: 40px;
-            background: #086bb5;
-            color: white;
-            border: none;
-            cursor: pointer;
-            display: none;
-            text-align: center;
-   
-          
-    }
-    .back-to-top i{
-        margin-top: 8px;
-    }
-            /* footer css end here*/
-
-@media (min-width: 992px) {
-    .navbar {
-        position: absolute;
-        width: 100%;
-    
-		 background-color: rgb(74, 106, 163, .65)!important;
-        z-index: 1;
-    }
-    
-    .navbar.nav-sticky {
-    
-        background: #4A6AA3 !important;
-    }
-    
- 
-    
-    .navbar a.nav-link {
-        padding: 8px 15px;
-        font-size: 14px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-    }
+.ContactIcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+  margin-top: 10px;
+  padding: 0px 15px;
 }
 
-
-
-@media (max-width: 991.98px) {   
-    .navbar {
-        padding: 15px;
-        background: #4A6AA3 ;
-    }
-    .aboutSection img{
-        width: 50%;
-    }
-  
-    .feature-img {
-       height: 300px;
-        width: 300px;
-        margin-left: 40px;
-    }
-   
+.ContactIcon a {
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 2px solid white;
 }
 
-@media (max-width: 768px) {   
- 
-    .feature-img{
-      height: 300px;
-      width: 300px;
-      top: 110px;
-      margin-left: 35px;
+.ContactIcon .facebook {
+  background-color: #3b5998;
 }
-.aboutSection h2{
-    margin-top: 180px;
+
+.ContactIcon .twitter {
+  background-color: #55acee;
 }
-.howitWorks {
-    padding-top: 0px;
-    margin-top: -50px;
+
+.ContactIcon .linkedin {
+  background-color: #007bb5;
 }
-.ContactForm{
-   
-    width: 90%;
-    
+
+.ContactIcon .google {
+  background-color: #dd4b39;
+}
+
+.aboutSection img {
+  width: 60%;
+}
+
+.aboutSection h2 {
+  margin-top: 80px;
 }
 
 .alignImg {
-    
-    left: 135px;
-}
-}
-
-@media (max-width: 767px) { 
-    .ContactForm{
-   
-        width: 70%;
-        margin-top: 50px;
-        
-    }
-
+  position: absolute;
+  top: 140px;
+  left: 160px;
 }
 
-@media (max-width: 575px) { 
-.contactSection .col-md-4{
-	margin-bottom:25px;
-}
-}
-
-@media (max-width: 426px) { 
-   
-    .feature-img {
-      
-        margin-left: 40px;
-    }
-
-    .partnersLogo img {
-        height: 40px;
-        margin-right: 23px;
-    }
-
-    .alignImg{
-        top: 100px;
-    left: 150px;
-    }
-    .feature-img {
-      
-        top: 20px;
-        
-    }
-
-}
-
-@media (max-width: 376px) { 
-    
-    .aboutSection img {
-        width: 55%;
-    }
-
-    .feature-img {
-        margin-left: 25px;
-    }
-
-    .feature-img {
-        height: 250px;
-        width: 250px;
-        
-    }
-
-    .alignImg {
-        top: 80px;
-        left: 100px;
-    }
-	
-	.partnersLogo img {
-    height: 30px;
-    margin-right: 15px;
+.section-header {
+  position: relative;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
 .section-header h2 {
-    font-size: 30px;
- 
-
+  font-size: 35px;
+  margin-left: 35px;
+  font-weight: 300;
+  font-family: "Pathway Gothic One", sans-serif;
 }
+
+.section-header h2::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 0;
+  top: 15px;
+  left: 0px;
+  border-bottom: 20px solid;
+  border-image: repeating-linear-gradient(
+      60deg,
+      rgba(179, 179, 179, 0.3),
+      rgba(179, 179, 179, 0.01) 3px,
+      rgba(179, 179, 179, 0.1) 3px,
+      rgba(179, 179, 179, 0.35) 5px
+    )
+    30;
+}
+
+.feature-img {
+  border: 20px solid;
+  border-image: repeating-linear-gradient(
+      60deg,
+      rgba(179, 179, 179, 0.3),
+      rgba(179, 179, 179, 0.01) 3px,
+      rgba(179, 179, 179, 0.1) 3px,
+      rgba(179, 179, 179, 0.35) 5px
+    )
+    30;
+
+  height: 450px;
+  width: 380px;
+  position: absolute;
+  top: 40px;
+
+  margin-left: 70px;
+}
+
+.howitWorks .section-header {
+  margin-top: 60px;
+}
+
+.worksContent {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.worksContent .SizeChange {
+  font-size: 22px;
+  color: cornflowerblue;
+  font-family: "Pathway Gothic One", sans-serif;
+  letter-spacing: 1px;
+}
+
+.worksContent p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.RegBtn {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.RegBtn a {
+  padding: 10px 20px;
+  border: 2px solid black;
+  color: black !important;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  margin-top: 20px;
+}
+
+.RegBtn i {
+  text-decoration: underline;
+  color: rgb(85, 39, 211) !important;
+}
+
+.worksContent img {
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+/* footer css start here*/
+
+.footer-section {
+  background-color: #092a49;
+}
+
+.Footer-heading {
+  font-size: 22px;
+  color: white;
+  font-family: "Pathway Gothic One", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+.Footer-heading::before {
+  content: "";
+  width: 40px;
+
+  border: 1px solid #6259fd;
+  position: absolute;
+  margin-top: 33px;
+}
+
+.Company-Details p,
+i,
+a {
+  color: white;
+}
+
+.Company-Details i {
+  margin-right: 5px;
+}
+
+.social-icon {
+  color: white;
+}
+
+.social-icon a:nth-child(1) {
+  margin-left: 0px !important;
+}
+
+.social-icon a {
+  color: white;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.contactSection {
+  padding: 40px 0px 20px 0px;
+}
+
+.quick p {
+  color: white;
+}
+
+.quick i {
+  margin-right: 5px;
+}
+
+.copyright p {
+  color: rgb(165 157 157);
+  margin: 0px;
+  padding-bottom: 25px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  width: 40px;
+  height: 40px;
+  background: #086bb5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none;
+  text-align: center;
+}
+
+.back-to-top i {
+  margin-top: 8px;
+}
+
+/* footer css end here*/
+
+@media (min-width: 992px) {
+  .navbar {
+    position: absolute;
+    width: 100%;
+
+    background-color: rgb(74, 106, 163, 0.65) !important;
+    z-index: 1;
+  }
+
+  .navbar.nav-sticky {
+    background: #4a6aa3 !important;
+  }
+
+  .navbar a.nav-link {
+    padding: 8px 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 15px;
+    background: #4a6aa3;
+  }
+
+  .aboutSection img {
+    width: 50%;
+  }
+
+  .feature-img {
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-img {
+    height: 300px;
+    width: 300px;
+    top: 110px;
+    margin-left: 35px;
+  }
+
+  .aboutSection h2 {
+    margin-top: 180px;
+  }
+
+  .howitWorks {
+    padding-top: 0px;
+    margin-top: -50px;
+  }
+
+  .ContactForm {
+    width: 90%;
+  }
+
+  .alignImg {
+    left: 135px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ContactForm {
+    width: 70%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contactSection .col-md-4 {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 426px) {
+  .feature-img {
+    margin-left: 40px;
+  }
+
+  .partnersLogo img {
+    height: 40px;
+    margin-right: 23px;
+  }
+
+  .alignImg {
+    top: 100px;
+    left: 150px;
+  }
+
+  .feature-img {
+    top: 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .aboutSection img {
+    width: 55%;
+  }
+
+  .feature-img {
+    margin-left: 25px;
+  }
+
+  .feature-img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .alignImg {
+    top: 80px;
+    left: 100px;
+  }
+
+  .partnersLogo img {
+    height: 30px;
+    margin-right: 15px;
+  }
+
+  .section-header h2 {
+    font-size: 30px;
+  }
 }
